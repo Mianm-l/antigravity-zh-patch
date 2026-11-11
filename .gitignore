@@ -1,0 +1,17 @@
+# 补丁工作区：解包出的 Antigravity 程序内容，绝不入库
+build/
+*.asar
+*.asar.*
+app.asar.en.bak
+
+# 从 Antigravity 前端 bundle 挖掘的字符串清单（分析用中间产物，不发布）
+candidates.json
+candidates.txt
+templates.txt
+mine-*.js
+
+# 截图/日志/临时文件
+*.png
+*.log
+*.tmp
+Thumbs.db
